@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/images/bg-pattern-footer-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(0, 0%, 98%);
+  padding: 85px 20px;
+}

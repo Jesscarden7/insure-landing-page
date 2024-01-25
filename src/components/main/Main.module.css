@@ -1,0 +1,9 @@
+.main {
+  position: relative;
+}
+
+.main > img {
+  position: absolute;
+  right: 0%;
+  top: 29.5%;
+}
