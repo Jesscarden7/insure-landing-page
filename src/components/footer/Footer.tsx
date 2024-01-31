@@ -7,9 +7,11 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <FooterMedia />
-      {links.map((link) => (
-        <FooterLinks link={link} />
-      ))}
+      <div className={styles.footerLinksWrapper}>
+        {links.map((link) => (
+          <FooterLinks link={link} />
+        ))}
+      </div>
     </div>
   );
 }

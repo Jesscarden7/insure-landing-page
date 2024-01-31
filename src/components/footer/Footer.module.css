@@ -6,3 +6,16 @@
   background-color: hsl(0, 0%, 98%);
   padding: 85px 20px;
 }
+
+@media (min-width: 1440px) {
+  .footer {
+    padding: 65px 167px;
+    background-image: url("../../assets/images/bg-pattern-footer-desktop.svg");
+  }
+
+  .footerLinksWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+  }
+}

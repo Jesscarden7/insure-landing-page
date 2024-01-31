@@ -1,0 +1,44 @@
+.navbarDesktop {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .navbarDesktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 440px;
+  }
+
+  .navbarDesktop nav {
+    font-family: "Karla", sans-serif;
+    text-transform: uppercase;
+    color: hsl(273, 4%, 51%);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .navbarDesktop nav:hover {
+    color: hsl(256, 26%, 20%);
+    cursor: pointer;
+  }
+
+  .navbarDesktop button {
+    border: 2px solid hsl(256, 26%, 20%);
+    font-family: "Karla", sans-serif;
+    color: hsl(256, 26%, 20%);
+    text-transform: uppercase;
+    padding: 10px 27px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .navbarDesktop button:hover {
+    color: hsl(0, 0%, 98%);
+    background: hsl(270, 9%, 17%);
+    cursor: pointer;
+  }
+}

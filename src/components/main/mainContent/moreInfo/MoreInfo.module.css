@@ -30,3 +30,27 @@
   width: 155px;
   letter-spacing: 1.5px;
 }
+
+@media (min-width: 1440px) {
+  .moreInfo {
+    background-image: url("../../../../assets/images/bg-pattern-how-we-work-desktop.svg");
+    background-position: 100%;
+    height: 250px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 80px;
+  }
+
+  .moreInfo h1 {
+    text-align: start;
+    font-size: 57px;
+    width: 53%;
+  }
+
+  .moreInfo button:hover {
+    background: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+    font-weight: 600;
+    cursor: pointer;
+  }
+}

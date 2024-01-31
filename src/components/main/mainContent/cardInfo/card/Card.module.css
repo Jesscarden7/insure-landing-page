@@ -23,3 +23,13 @@
   font-size: 16px;
   line-height: 1.5;
 }
+
+@media (min-width: 1440px) {
+  .card {
+    align-items: flex-start;
+  }
+
+  .card p {
+    text-align: start;
+  }
+}

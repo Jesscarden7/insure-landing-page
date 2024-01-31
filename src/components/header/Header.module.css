@@ -11,3 +11,10 @@
   width: 111px;
   height: 19px;
 }
+
+@media (min-width: 1440px) {
+  .header {
+    padding: 22px 170px;
+    z-index: 5;
+  }
+}

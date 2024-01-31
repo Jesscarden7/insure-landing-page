@@ -6,6 +6,18 @@
   padding-bottom: 135px;
 }
 
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
 .cardInfo hr {
   background-color: hsl(273, 4%, 51%, 0.77);
   height: 1.5px;
@@ -19,4 +31,23 @@
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   margin-bottom: 20px;
+}
+
+@media (min-width: 1440px) {
+  .cardInfo {
+    align-items: flex-start;
+  }
+
+  .cardInfo hr {
+    width: 150px;
+    margin: unset;
+  }
+
+  .cardInfo h1 {
+    font-size: 72px;
+  }
+
+  .cardsContainer {
+    flex-direction: row;
+  }
 }

@@ -24,3 +24,18 @@
   font-size: 14px;
   letter-spacing: 1px;
 }
+
+@media (min-width: 1440px) {
+  .footerLinks {
+    align-items: flex-start;
+  }
+
+  .footerLinks ul {
+    align-items: flex-start;
+  }
+
+  .footerLinks ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
